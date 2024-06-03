@@ -38,7 +38,7 @@ class WeatherChecker {
         }
       }
     } catch (_) {
-      // TODO(optional): Find a way to have the UI let the user know that we haven't been able to update data successfully
+      // Have the UI let the user know that we haven't been able to update data successfully
       print('Have not been able to update data successfully.');
     } finally {
       client.close();
