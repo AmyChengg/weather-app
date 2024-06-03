@@ -32,7 +32,7 @@ class CurrentWeather extends StatelessWidget {
     );
   }
 
-  // TODO(you): Write this method, Feel free to pick whatever colors you like. 
+  // Colors for the weather condition 
   Color _backgroundColorForCondition(WeatherCondition condition){
     // Yellow for sunny
     // Dark grey for gloomy
